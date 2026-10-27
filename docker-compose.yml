@@ -1,0 +1,14 @@
+services:
+  b33t:
+    build: .
+    container_name: b33t-music
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - b33t_cache:/app/audio_cache
+    environment:
+      - PORT=8080
+
+volumes:
+  b33t_cache:

@@ -1,0 +1,32 @@
+# ==========================================
+# b33t — Freedom to Music (.gitignore)
+# ==========================================
+
+# Python bytecode & environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Audio cache & downloaded streams
+audio_cache/
+*.part
+*.ytdl
+*.opus
+*.webm
+
+# Private credentials & local session cookies
+cookies.txt
+*.pem
+*.key
+.env
+
+# System & editor metadata
+.DS_Store
+.idea/
+.vscode/
+*.log
