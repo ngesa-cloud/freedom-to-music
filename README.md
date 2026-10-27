@@ -48,8 +48,8 @@ Streaming platforms have turned music into a walled garden of monthly paywalls, 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ngesa-cloud/b33t-desktop.git
-   cd b33t-desktop
+   git clone https://github.com/ngesa-cloud/freedom-to-music.git
+   cd freedom-to-music
    ```
 
 2. **Install dependencies**:
